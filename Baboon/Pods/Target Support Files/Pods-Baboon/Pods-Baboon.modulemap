@@ -1,0 +1,6 @@
+framework module Pods_Baboon {
+  umbrella header "Pods-Baboon-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+source "https://github.com/CocoaPods/Specs"
+platform :ios, "9.0"
+use_frameworks!
+
+def shared_pods
+  
+  pod 'Alamofire', '~> 4.0'
+  pod 'AlamofireImage', '~> 3.1'
+  pod 'MBProgressHUD', '~> 0.9.0'
+  pod 'Google/Analytics'
+  pod 'HockeySDK', '~> 3.8.4'
+end
+
+target 'Baboon' do
+  shared_pods
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '3.0'
+    end
+  end
+end
