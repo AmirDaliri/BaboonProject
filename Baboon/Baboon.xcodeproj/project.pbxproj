@@ -9,27 +9,31 @@
 /* Begin PBXBuildFile section */
 		6A6269304B63B02C3C5A3029 /* Pods_Baboon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76210163DB04B6DA3B1988B /* Pods_Baboon.framework */; };
 		8B1417311E81A96500F46FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417301E81A96500F46FB3 /* AppDelegate.swift */; };
-		8B1417331E81A96500F46FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417321E81A96500F46FB3 /* ViewController.swift */; };
+		8B1417331E81A96500F46FB3 /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417321E81A96500F46FB3 /* LoadingController.swift */; };
 		8B1417361E81A96500F46FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1417341E81A96500F46FB3 /* Main.storyboard */; };
-		8B1417381E81A96500F46FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1417371E81A96500F46FB3 /* Assets.xcassets */; };
-		8B14173B1E81A96500F46FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1417391E81A96500F46FB3 /* LaunchScreen.storyboard */; };
 		8B1417431E81ABF000F46FB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417421E81ABF000F46FB3 /* User.swift */; };
 		8B1417451E81AC2A00F46FB3 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */; };
 		8B1417471E81AC9100F46FB3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417461E81AC9100F46FB3 /* Constant.swift */; };
+		8B2F39FD1E8296B70032D096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F39FC1E8296B70032D096 /* Images.xcassets */; };
+		8B2F39FF1E829AD90032D096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F39FE1E829AD90032D096 /* Foundation.framework */; };
+		8B2F3A011E829AE20032D096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F3A001E829AE20032D096 /* UIKit.framework */; };
+		8B2F3A031E82A6D80032D096 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A021E82A6D80032D096 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		247BC01B87A60F0CF68C893B /* Pods-Baboon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baboon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Baboon/Pods-Baboon.debug.xcconfig"; sourceTree = "<group>"; };
 		8B14172D1E81A96500F46FB3 /* Baboon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baboon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1417301E81A96500F46FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B1417321E81A96500F46FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B1417321E81A96500F46FB3 /* LoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
 		8B1417351E81A96500F46FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B1417371E81A96500F46FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B14173A1E81A96500F46FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B14173C1E81A96500F46FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B1417421E81ABF000F46FB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
 		8B1417461E81AC9100F46FB3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8B2F39FC1E8296B70032D096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B2F39FE1E829AD90032D096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B2F3A001E829AE20032D096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B2F3A021E82A6D80032D096 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A76210163DB04B6DA3B1988B /* Pods_Baboon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baboon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2BD39D9B1E4BE6A823DD9 /* Pods-Baboon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baboon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Baboon/Pods-Baboon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2F3A011E829AE20032D096 /* UIKit.framework in Frameworks */,
+				8B2F39FF1E829AD90032D096 /* Foundation.framework in Frameworks */,
 				6A6269304B63B02C3C5A3029 /* Pods_Baboon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,22 +73,80 @@
 		8B14172F1E81A96500F46FB3 /* Baboon */ = {
 			isa = PBXGroup;
 			children = (
-				8B1417301E81A96500F46FB3 /* AppDelegate.swift */,
-				8B1417321E81A96500F46FB3 /* ViewController.swift */,
-				8B1417421E81ABF000F46FB3 /* User.swift */,
-				8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */,
-				8B1417461E81AC9100F46FB3 /* Constant.swift */,
-				8B1417341E81A96500F46FB3 /* Main.storyboard */,
-				8B1417371E81A96500F46FB3 /* Assets.xcassets */,
-				8B1417391E81A96500F46FB3 /* LaunchScreen.storyboard */,
-				8B14173C1E81A96500F46FB3 /* Info.plist */,
+				8B2F39F51E8291800032D096 /* Api */,
+				8B2F39FB1E8292C80032D096 /* Models */,
+				8B2F39F61E8291890032D096 /* Controller */,
+				8B2F39F71E8291EB0032D096 /* Views */,
+				8B2F39F91E8292890032D096 /* Resources */,
+				8B2F39FA1E8292A60032D096 /* Supporting Files */,
 			);
 			path = Baboon;
+			sourceTree = "<group>";
+		};
+		8B2F39F51E8291800032D096 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		8B2F39F61E8291890032D096 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B1417301E81A96500F46FB3 /* AppDelegate.swift */,
+				8B1417321E81A96500F46FB3 /* LoadingController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8B2F39F71E8291EB0032D096 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B2F39F81E82926C0032D096 /* Storyboards & Nibs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8B2F39F81E82926C0032D096 /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				8B1417341E81A96500F46FB3 /* Main.storyboard */,
+			);
+			name = "Storyboards & Nibs";
+			sourceTree = "<group>";
+		};
+		8B2F39F91E8292890032D096 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B2F39FC1E8296B70032D096 /* Images.xcassets */,
+				8B2F3A021E82A6D80032D096 /* Colors.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B2F39FA1E8292A60032D096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B14173C1E81A96500F46FB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B2F39FB1E8292C80032D096 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B1417421E81ABF000F46FB3 /* User.swift */,
+				8B1417461E81AC9100F46FB3 /* Constant.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		DA8936B94667280FC41C89A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B2F3A001E829AE20032D096 /* UIKit.framework */,
+				8B2F39FE1E829AD90032D096 /* Foundation.framework */,
 				A76210163DB04B6DA3B1988B /* Pods_Baboon.framework */,
 			);
 			name = Frameworks;
@@ -159,8 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B14173B1E81A96500F46FB3 /* LaunchScreen.storyboard in Resources */,
-				8B1417381E81A96500F46FB3 /* Assets.xcassets in Resources */,
+				8B2F39FD1E8296B70032D096 /* Images.xcassets in Resources */,
 				8B1417361E81A96500F46FB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1417331E81A96500F46FB3 /* ViewController.swift in Sources */,
+				8B1417331E81A96500F46FB3 /* LoadingController.swift in Sources */,
+				8B2F3A031E82A6D80032D096 /* Colors.swift in Sources */,
 				8B1417451E81AC2A00F46FB3 /* ApiRouter.swift in Sources */,
 				8B1417471E81AC9100F46FB3 /* Constant.swift in Sources */,
 				8B1417311E81A96500F46FB3 /* AppDelegate.swift in Sources */,
@@ -237,14 +301,6 @@
 				8B1417351E81A96500F46FB3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8B1417391E81A96500F46FB3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B14173A1E81A96500F46FB3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,7 +402,9 @@
 			baseConfigurationReference = 247BC01B87A60F0CF68C893B /* Pods-Baboon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Baboon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Baboon.Baboon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,7 +417,9 @@
 			baseConfigurationReference = DAF2BD39D9B1E4BE6A823DD9 /* Pods-Baboon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Baboon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Baboon.Baboon;
 				PRODUCT_NAME = "$(TARGET_NAME)";

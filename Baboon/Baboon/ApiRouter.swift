@@ -98,90 +98,22 @@ extension DataRequest {
 
 struct ApiRouter {
   enum Router: URLRequestConvertible {
-    case checkMobileExistence(mobile: String)
-    case generatePin(mobile: String)
-    case verifyPin(mobile: String, pin: String)
-    case searchClub(query: String)
-    case signUp(mobile: String, name: String, dob: String)
-    case accuireMembership(membershipNumber: String, renewalDate: String, clubKey: String)
-    case mainFeed()
-    case cardFeed(id: String)
-    case getAnnouncement(id: String)
-    case userProfile(userId: String)
     case login()
-    case myProfile()
-    case updateProfile()
     
     
     
     var method: Alamofire.HTTPMethod {
       switch self {
-      case .generatePin:
-        return .post
-      case .checkMobileExistence:
-        return .get
-      case .verifyPin:
-        return .post
-      case .searchClub:
-        return .get
-      case .signUp:
-        return .post
-      case .accuireMembership:
-        return .post
-      case .mainFeed:
-        return .get
-      case .userProfile:
-        return .get
       case .login:
         return .get
-      case .cardFeed:
-        return .get
-      case .getAnnouncement:
-        return .get
-      case .myProfile:
-        return .get
-      case .updateProfile:
-        return .put
       }
     }
     
     func asURLRequest() throws -> URLRequest {
       let result: (path: String, parameters: [String: AnyObject]?) = {
         switch self {
-        case .checkMobileExistence(let mobile):
-          return ("/users/\(mobile)/registered", nil)
-        case .generatePin(let mobile):
-          let params: [String: AnyObject] = ["mobile": mobile as AnyObject]
-          return ("/users/pin/generate", params)
-        case .verifyPin(let mobile, let pin):
-          let params: [String: AnyObject] = ["mobile": mobile as AnyObject, "pin": pin as AnyObject]
-          return ("/users/pin/verify", params)
-        case .searchClub(let query):
-          let params = ["q": query]
-          return ("/clubs", params as [String : AnyObject]?)
-        case .signUp(let mobile, let name, let dob):
-          let params: [String: AnyObject] = ["mobile": mobile as AnyObject, "name": name as AnyObject, "dob": dob as AnyObject]
-          return ("/users/signup", params)
-        case .accuireMembership(let membershipNumber, let renewalDate, let clubKey):
-          let params: [String: AnyObject] = ["membershipNumber": membershipNumber as AnyObject, "renewalDate": renewalDate as AnyObject, "clubKey": clubKey as AnyObject]
-          return ("/members/acquire", params)
-        case .mainFeed():
-          return ("/feeds/me", nil)
-        case .cardFeed(let id):
-          return ("/feeds/\(id)", nil)
-        case .getAnnouncement(let id):
-          return ("/announcements/\(id)", nil)
-        case .userProfile( _):
-          return ("",nil)
         case .login():
-//          let params = ["mobile": User.getUserPhone()!, "auth": User.getUserAuth()!]
-//          return("/posts", params as [String : AnyObject]?)
           return("/posts", nil)
-        case .myProfile():
-          return("/users/me", nil)
-        case .updateProfile():
-          let params = ["name": User.getUserName()!, "address": User.getUserAddress()!, "dob": User.getDob()!]
-          return("/users/me", params as [String : AnyObject]?)
         }
       }()
       

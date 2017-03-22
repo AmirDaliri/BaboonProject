@@ -34,14 +34,7 @@ struct Constants {
     static let phone = ""
     static let token = ""
     static let hasTappedNotificationPermission = ""
-    static let hasSeenIntro = ""
-    static let isUser = ""
     static let userId = ""
-    static let choosedClubId = ""
-    static let membershipNumber = ""
-    static let renewalDate = ""
-    static let adderes = ""
-    static let dob = ""
     static let name = ""
   }
   
