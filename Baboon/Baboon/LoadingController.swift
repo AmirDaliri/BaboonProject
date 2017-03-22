@@ -13,12 +13,15 @@ import UICircularProgressRing
 class LoadingController: UIViewController, UICircularProgressRingDelegate {
   
   @IBOutlet weak var loadingRing: UICircularProgressRingView!
-
+  
+  let showFeedIdentifier = "showPostList"
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // I'm Here...
     
-    getTestResponse()
+//    getTestResponse()
     
     //Loading Automat Compelet
     loadingRing.delegate = self
@@ -27,13 +30,19 @@ class LoadingController: UIViewController, UICircularProgressRingDelegate {
       self.loadingRing.viewStyle = 2
       self.loadingRing.setProgress(value: 100, animationDuration: 5) {}
     }
+    self.setupLoader()
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  private func setupLoader() {
+    perform(#selector(self.showFeed), with: nil, afterDelay: 5)
   }
-
+  
+  func showFeed() {
+    performSegue(withIdentifier: self.showFeedIdentifier, sender: self)
+  }
+  
+  
+  
   private func getTestResponse() {
     Alamofire.request(ApiRouter.Router.login()).validate().responseJSON() {
       (response) in

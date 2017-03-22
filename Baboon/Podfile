@@ -11,6 +11,7 @@ def shared_pods
   pod 'XCGLogger', '~> 4.0.0'
   pod 'Google/Analytics'
   pod 'HockeySDK', '~> 3.8.4'
+  pod 'MXMSideMenuController'
 end
 
 target 'Baboon' do
