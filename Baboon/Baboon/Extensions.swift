@@ -19,3 +19,4 @@ extension RootController: MenuViewControllerDelegate {
     sideMenuController?.setMenuVisible(false, animated: true)
   }
 }
+

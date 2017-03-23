@@ -14,6 +14,11 @@
 		8B1417431E81ABF000F46FB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417421E81ABF000F46FB3 /* User.swift */; };
 		8B1417451E81AC2A00F46FB3 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */; };
 		8B1417471E81AC9100F46FB3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417461E81AC9100F46FB3 /* Constant.swift */; };
+		8B2CFF081E8407DB0068115A /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CFF031E8407DB0068115A /* TFHpple.m */; };
+		8B2CFF091E8407DB0068115A /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CFF051E8407DB0068115A /* TFHppleElement.m */; };
+		8B2CFF0A1E8407DB0068115A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CFF071E8407DB0068115A /* XPathQuery.m */; };
+		8B2CFF0C1E8409DA0068115A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2CFF0B1E8409DA0068115A /* libxml2.tbd */; };
+		8B2CFF0E1E8409E40068115A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2CFF0D1E8409E40068115A /* libxml2.2.tbd */; };
 		8B2F39FD1E8296B70032D096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F39FC1E8296B70032D096 /* Images.xcassets */; };
 		8B2F39FF1E829AD90032D096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F39FE1E829AD90032D096 /* Foundation.framework */; };
 		8B2F3A011E829AE20032D096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F3A001E829AE20032D096 /* UIKit.framework */; };
@@ -39,6 +44,15 @@
 		8B1417421E81ABF000F46FB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
 		8B1417461E81AC9100F46FB3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8B2CFF011E8407DB0068115A /* Baboon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baboon-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B2CFF021E8407DB0068115A /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		8B2CFF031E8407DB0068115A /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		8B2CFF041E8407DB0068115A /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		8B2CFF051E8407DB0068115A /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		8B2CFF061E8407DB0068115A /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		8B2CFF071E8407DB0068115A /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		8B2CFF0B1E8409DA0068115A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8B2CFF0D1E8409E40068115A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		8B2F39FC1E8296B70032D096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B2F39FE1E829AD90032D096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B2F3A001E829AE20032D096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -61,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2CFF0E1E8409E40068115A /* libxml2.2.tbd in Frameworks */,
+				8B2CFF0C1E8409DA0068115A /* libxml2.tbd in Frameworks */,
 				8B2F3A011E829AE20032D096 /* UIKit.framework in Frameworks */,
 				8B2F39FF1E829AD90032D096 /* Foundation.framework in Frameworks */,
 				6A6269304B63B02C3C5A3029 /* Pods_Baboon.framework in Frameworks */,
@@ -98,8 +114,22 @@
 				8B2F3A101E82DED10032D096 /* Misc */,
 				8B2F39F91E8292890032D096 /* Resources */,
 				8B2F39FA1E8292A60032D096 /* Supporting Files */,
+				8B2CFF011E8407DB0068115A /* Baboon-Bridging-Header.h */,
 			);
 			path = Baboon;
+			sourceTree = "<group>";
+		};
+		8B2CFF0F1E840ED20068115A /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CFF021E8407DB0068115A /* TFHpple.h */,
+				8B2CFF031E8407DB0068115A /* TFHpple.m */,
+				8B2CFF041E8407DB0068115A /* TFHppleElement.h */,
+				8B2CFF051E8407DB0068115A /* TFHppleElement.m */,
+				8B2CFF061E8407DB0068115A /* XPathQuery.h */,
+				8B2CFF071E8407DB0068115A /* XPathQuery.m */,
+			);
+			name = TFHpple;
 			sourceTree = "<group>";
 		};
 		8B2F39F51E8291800032D096 /* Api */ = {
@@ -165,6 +195,7 @@
 				8B1417421E81ABF000F46FB3 /* User.swift */,
 				8B1417461E81AC9100F46FB3 /* Constant.swift */,
 				8B2F3A1D1E82ECD10032D096 /* MenuItem.swift */,
+				8B2CFF0F1E840ED20068115A /* TFHpple */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -180,6 +211,8 @@
 		DA8936B94667280FC41C89A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B2CFF0D1E8409E40068115A /* libxml2.2.tbd */,
+				8B2CFF0B1E8409DA0068115A /* libxml2.tbd */,
 				8B2F3A001E829AE20032D096 /* UIKit.framework */,
 				8B2F39FE1E829AD90032D096 /* Foundation.framework */,
 				A76210163DB04B6DA3B1988B /* Pods_Baboon.framework */,
@@ -231,6 +264,7 @@
 				TargetAttributes = {
 					8B14172C1E81A96500F46FB3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -327,12 +361,15 @@
 				8B2F3A031E82A6D80032D096 /* Colors.swift in Sources */,
 				8B1417451E81AC2A00F46FB3 /* ApiRouter.swift in Sources */,
 				8B2F3A261E82ECD10032D096 /* MenuViewController.swift in Sources */,
+				8B2CFF091E8407DB0068115A /* TFHppleElement.m in Sources */,
 				8B2F3A271E82ECD10032D096 /* PostListTableViewController.swift in Sources */,
 				8B1417471E81AC9100F46FB3 /* Constant.swift in Sources */,
+				8B2CFF081E8407DB0068115A /* TFHpple.m in Sources */,
 				8B1417311E81A96500F46FB3 /* AppDelegate.swift in Sources */,
 				8B1417431E81ABF000F46FB3 /* User.swift in Sources */,
 				8B2F3A291E82ECD10032D096 /* TableViewController.swift in Sources */,
 				8B2F3A241E82ECD10032D096 /* MenuItem.swift in Sources */,
+				8B2CFF0A1E8407DB0068115A /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,11 +484,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Baboon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Baboon.Baboon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Baboon/Baboon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -462,11 +504,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Baboon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Baboon.Baboon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Baboon/Baboon-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

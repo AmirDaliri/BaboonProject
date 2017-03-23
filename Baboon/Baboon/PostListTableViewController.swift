@@ -19,8 +19,21 @@ class PostListTableViewController: UITableViewController, UISearchResultsUpdatin
     //I'm Here...
     
     self.headerSetup()
+    self.getElement()
   }
-  
+
+  private func getElement() {
+    let data = NSData(contentsOf: NSURL(string: "http://baboon.ir/wp-json/givekesh/posts") as! URL)
+    let doc = TFHpple(htmlData: data as Data!)
+
+    if let elements = doc?.search(withXPathQuery: "//p") as? [TFHppleElement] {
+      for element in elements {
+        print("------")
+        print(element.content)
+      }
+    }
+  }
+
   
   func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
     self.dismiss(animated: true, completion: nil)
@@ -50,3 +63,13 @@ class PostListTableViewController: UITableViewController, UISearchResultsUpdatin
   }
   
 }
+
+//let data = NSData(contentsOf: NSURL(string: "http://baboon.ir/wp-json/givekesh/posts") as! URL)
+//let doc = TFHpple(htmlData: data as Data!)
+//
+//if let elements = doc?.search(withXPathQuery: ("//p")) as? [TFHppleElement] {
+//  for element in elements {
+//    print("------")
+//    print(element.content)
+//  }
+//}
