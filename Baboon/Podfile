@@ -4,14 +4,8 @@ use_frameworks!
 
 def shared_pods
   
-  pod 'Alamofire', '~> 4.0'
-  pod 'AlamofireImage', '~> 3.1'
-  pod 'MBProgressHUD', '~> 0.9.0'
-  pod	'UICircularProgressRing'
   pod 'XCGLogger', '~> 4.0.0'
-  pod 'Google/Analytics'
-  pod 'HockeySDK', '~> 3.8.4'
-  pod 'MXMSideMenuController'
+  pod 'MMDrawerController'
 end
 
 target 'Baboon' do

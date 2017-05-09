@@ -8,64 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		6A6269304B63B02C3C5A3029 /* Pods_Baboon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76210163DB04B6DA3B1988B /* Pods_Baboon.framework */; };
+		8B0EED391EA15BB90034A732 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED381EA15BB90034A732 /* Node.swift */; };
+		8B0EED3B1EA15BCD0034A732 /* Express.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED3A1EA15BCD0034A732 /* Express.swift */; };
+		8B0EED3D1EA15BDC0034A732 /* AngularJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED3C1EA15BDC0034A732 /* AngularJS.swift */; };
+		8B0EED3F1EA15C270034A732 /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED3E1EA15C270034A732 /* Bootstrap.swift */; };
+		8B0EED411EA15C330034A732 /* PHP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED401EA15C330034A732 /* PHP.swift */; };
+		8B0EED431EA15C470034A732 /* Symfony.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED421EA15C470034A732 /* Symfony.swift */; };
+		8B0EED451EA15C520034A732 /* Laravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED441EA15C520034A732 /* Laravel.swift */; };
+		8B0EED471EA15C640034A732 /* RubyOnRails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED461EA15C640034A732 /* RubyOnRails.swift */; };
+		8B0EED491EA15C6E0034A732 /* Vagrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0EED481EA15C6E0034A732 /* Vagrant.swift */; };
 		8B1417311E81A96500F46FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417301E81A96500F46FB3 /* AppDelegate.swift */; };
 		8B1417331E81A96500F46FB3 /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417321E81A96500F46FB3 /* LoadingController.swift */; };
 		8B1417361E81A96500F46FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1417341E81A96500F46FB3 /* Main.storyboard */; };
-		8B1417431E81ABF000F46FB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417421E81ABF000F46FB3 /* User.swift */; };
-		8B1417451E81AC2A00F46FB3 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */; };
-		8B1417471E81AC9100F46FB3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1417461E81AC9100F46FB3 /* Constant.swift */; };
-		8B2CFF081E8407DB0068115A /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CFF031E8407DB0068115A /* TFHpple.m */; };
-		8B2CFF091E8407DB0068115A /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CFF051E8407DB0068115A /* TFHppleElement.m */; };
-		8B2CFF0A1E8407DB0068115A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CFF071E8407DB0068115A /* XPathQuery.m */; };
 		8B2CFF0C1E8409DA0068115A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2CFF0B1E8409DA0068115A /* libxml2.tbd */; };
 		8B2CFF0E1E8409E40068115A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2CFF0D1E8409E40068115A /* libxml2.2.tbd */; };
 		8B2F39FD1E8296B70032D096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F39FC1E8296B70032D096 /* Images.xcassets */; };
 		8B2F39FF1E829AD90032D096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F39FE1E829AD90032D096 /* Foundation.framework */; };
 		8B2F3A011E829AE20032D096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2F3A001E829AE20032D096 /* UIKit.framework */; };
 		8B2F3A031E82A6D80032D096 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A021E82A6D80032D096 /* Colors.swift */; };
-		8B2F3A0F1E82DEBF0032D096 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A0E1E82DEBF0032D096 /* Extensions.swift */; };
-		8B2F3A231E82ECD10032D096 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A1C1E82ECD10032D096 /* DetailViewController.swift */; };
-		8B2F3A241E82ECD10032D096 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A1D1E82ECD10032D096 /* MenuItem.swift */; };
 		8B2F3A251E82ECD10032D096 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A1E1E82ECD10032D096 /* MenuItemCell.swift */; };
 		8B2F3A261E82ECD10032D096 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A1F1E82ECD10032D096 /* MenuViewController.swift */; };
-		8B2F3A271E82ECD10032D096 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A201E82ECD10032D096 /* PostListTableViewController.swift */; };
-		8B2F3A281E82ECD10032D096 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A211E82ECD10032D096 /* RootController.swift */; };
-		8B2F3A291E82ECD10032D096 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A221E82ECD10032D096 /* TableViewController.swift */; };
+		8B2F3A271E82ECD10032D096 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F3A201E82ECD10032D096 /* PostListViewController.swift */; };
 		8B2F3A2B1E8301F60032D096 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F3A2A1E8301F60032D096 /* Pacifico.ttf */; };
+		8BB5F7541EA12C360046B2B8 /* JavaScriptController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5F7531EA12C360046B2B8 /* JavaScriptController.swift */; };
+		8BC222F71EA1689E00991625 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC222F61EA1689E00991625 /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		247BC01B87A60F0CF68C893B /* Pods-Baboon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baboon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Baboon/Pods-Baboon.debug.xcconfig"; sourceTree = "<group>"; };
+		8B0EED381EA15BB90034A732 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		8B0EED3A1EA15BCD0034A732 /* Express.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Express.swift; sourceTree = "<group>"; };
+		8B0EED3C1EA15BDC0034A732 /* AngularJS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngularJS.swift; sourceTree = "<group>"; };
+		8B0EED3E1EA15C270034A732 /* Bootstrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bootstrap.swift; sourceTree = "<group>"; };
+		8B0EED401EA15C330034A732 /* PHP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHP.swift; sourceTree = "<group>"; };
+		8B0EED421EA15C470034A732 /* Symfony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symfony.swift; sourceTree = "<group>"; };
+		8B0EED441EA15C520034A732 /* Laravel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laravel.swift; sourceTree = "<group>"; };
+		8B0EED461EA15C640034A732 /* RubyOnRails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RubyOnRails.swift; sourceTree = "<group>"; };
+		8B0EED481EA15C6E0034A732 /* Vagrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vagrant.swift; sourceTree = "<group>"; };
 		8B14172D1E81A96500F46FB3 /* Baboon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baboon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1417301E81A96500F46FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B1417321E81A96500F46FB3 /* LoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
 		8B1417351E81A96500F46FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B14173C1E81A96500F46FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B1417421E81ABF000F46FB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
-		8B1417461E81AC9100F46FB3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		8B2CFF011E8407DB0068115A /* Baboon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Baboon-Bridging-Header.h"; sourceTree = "<group>"; };
-		8B2CFF021E8407DB0068115A /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
-		8B2CFF031E8407DB0068115A /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
-		8B2CFF041E8407DB0068115A /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
-		8B2CFF051E8407DB0068115A /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
-		8B2CFF061E8407DB0068115A /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		8B2CFF071E8407DB0068115A /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		8B2CFF0B1E8409DA0068115A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		8B2CFF0D1E8409E40068115A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		8B2F39FC1E8296B70032D096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B2F39FE1E829AD90032D096 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B2F3A001E829AE20032D096 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B2F3A021E82A6D80032D096 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		8B2F3A0E1E82DEBF0032D096 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8B2F3A1C1E82ECD10032D096 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		8B2F3A1D1E82ECD10032D096 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		8B2F3A1E1E82ECD10032D096 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		8B2F3A1F1E82ECD10032D096 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		8B2F3A201E82ECD10032D096 /* PostListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
-		8B2F3A211E82ECD10032D096 /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
-		8B2F3A221E82ECD10032D096 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8B2F3A201E82ECD10032D096 /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		8B2F3A2A1E8301F60032D096 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		8BB5F7531EA12C360046B2B8 /* JavaScriptController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaScriptController.swift; sourceTree = "<group>"; };
+		8BC222F61EA1689E00991625 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A76210163DB04B6DA3B1988B /* Pods_Baboon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baboon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF2BD39D9B1E4BE6A823DD9 /* Pods-Baboon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baboon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Baboon/Pods-Baboon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,37 +104,13 @@
 		8B14172F1E81A96500F46FB3 /* Baboon */ = {
 			isa = PBXGroup;
 			children = (
-				8B2F39F51E8291800032D096 /* Api */,
-				8B2F39FB1E8292C80032D096 /* Models */,
+				8B2CFF011E8407DB0068115A /* Baboon-Bridging-Header.h */,
 				8B2F39F61E8291890032D096 /* Controller */,
 				8B2F39F71E8291EB0032D096 /* Views */,
-				8B2F3A101E82DED10032D096 /* Misc */,
 				8B2F39F91E8292890032D096 /* Resources */,
 				8B2F39FA1E8292A60032D096 /* Supporting Files */,
-				8B2CFF011E8407DB0068115A /* Baboon-Bridging-Header.h */,
 			);
 			path = Baboon;
-			sourceTree = "<group>";
-		};
-		8B2CFF0F1E840ED20068115A /* TFHpple */ = {
-			isa = PBXGroup;
-			children = (
-				8B2CFF021E8407DB0068115A /* TFHpple.h */,
-				8B2CFF031E8407DB0068115A /* TFHpple.m */,
-				8B2CFF041E8407DB0068115A /* TFHppleElement.h */,
-				8B2CFF051E8407DB0068115A /* TFHppleElement.m */,
-				8B2CFF061E8407DB0068115A /* XPathQuery.h */,
-				8B2CFF071E8407DB0068115A /* XPathQuery.m */,
-			);
-			name = TFHpple;
-			sourceTree = "<group>";
-		};
-		8B2F39F51E8291800032D096 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				8B1417441E81AC2A00F46FB3 /* ApiRouter.swift */,
-			);
-			name = Api;
 			sourceTree = "<group>";
 		};
 		8B2F39F61E8291890032D096 /* Controller */ = {
@@ -145,11 +118,18 @@
 			children = (
 				8B1417301E81A96500F46FB3 /* AppDelegate.swift */,
 				8B1417321E81A96500F46FB3 /* LoadingController.swift */,
-				8B2F3A211E82ECD10032D096 /* RootController.swift */,
-				8B2F3A201E82ECD10032D096 /* PostListTableViewController.swift */,
+				8B2F3A201E82ECD10032D096 /* PostListViewController.swift */,
 				8B2F3A1F1E82ECD10032D096 /* MenuViewController.swift */,
-				8B2F3A221E82ECD10032D096 /* TableViewController.swift */,
-				8B2F3A1C1E82ECD10032D096 /* DetailViewController.swift */,
+				8BB5F7531EA12C360046B2B8 /* JavaScriptController.swift */,
+				8B0EED381EA15BB90034A732 /* Node.swift */,
+				8B0EED3A1EA15BCD0034A732 /* Express.swift */,
+				8B0EED3C1EA15BDC0034A732 /* AngularJS.swift */,
+				8B0EED3E1EA15C270034A732 /* Bootstrap.swift */,
+				8B0EED401EA15C330034A732 /* PHP.swift */,
+				8B0EED421EA15C470034A732 /* Symfony.swift */,
+				8B0EED441EA15C520034A732 /* Laravel.swift */,
+				8B0EED461EA15C640034A732 /* RubyOnRails.swift */,
+				8B0EED481EA15C6E0034A732 /* Vagrant.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -176,6 +156,7 @@
 			children = (
 				8B2F39FC1E8296B70032D096 /* Images.xcassets */,
 				8B2F3A021E82A6D80032D096 /* Colors.swift */,
+				8BC222F61EA1689E00991625 /* Strings.swift */,
 				8B2F3A2A1E8301F60032D096 /* Pacifico.ttf */,
 			);
 			name = Resources;
@@ -187,25 +168,6 @@
 				8B14173C1E81A96500F46FB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8B2F39FB1E8292C80032D096 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8B1417421E81ABF000F46FB3 /* User.swift */,
-				8B1417461E81AC9100F46FB3 /* Constant.swift */,
-				8B2F3A1D1E82ECD10032D096 /* MenuItem.swift */,
-				8B2CFF0F1E840ED20068115A /* TFHpple */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		8B2F3A101E82DED10032D096 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				8B2F3A0E1E82DEBF0032D096 /* Extensions.swift */,
-			);
-			name = Misc;
 			sourceTree = "<group>";
 		};
 		DA8936B94667280FC41C89A5 /* Frameworks */ = {
@@ -264,6 +226,7 @@
 				TargetAttributes = {
 					8B14172C1E81A96500F46FB3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NCU4JG2P77;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -313,7 +276,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		92D6F3640AC7E21BDE63EBDB /* [CP] Embed Pods Frameworks */ = {
@@ -353,23 +316,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2F3A231E82ECD10032D096 /* DetailViewController.swift in Sources */,
 				8B2F3A251E82ECD10032D096 /* MenuItemCell.swift in Sources */,
-				8B2F3A0F1E82DEBF0032D096 /* Extensions.swift in Sources */,
 				8B1417331E81A96500F46FB3 /* LoadingController.swift in Sources */,
-				8B2F3A281E82ECD10032D096 /* RootController.swift in Sources */,
+				8B0EED451EA15C520034A732 /* Laravel.swift in Sources */,
+				8B0EED3D1EA15BDC0034A732 /* AngularJS.swift in Sources */,
+				8B0EED391EA15BB90034A732 /* Node.swift in Sources */,
 				8B2F3A031E82A6D80032D096 /* Colors.swift in Sources */,
-				8B1417451E81AC2A00F46FB3 /* ApiRouter.swift in Sources */,
+				8B0EED491EA15C6E0034A732 /* Vagrant.swift in Sources */,
 				8B2F3A261E82ECD10032D096 /* MenuViewController.swift in Sources */,
-				8B2CFF091E8407DB0068115A /* TFHppleElement.m in Sources */,
-				8B2F3A271E82ECD10032D096 /* PostListTableViewController.swift in Sources */,
-				8B1417471E81AC9100F46FB3 /* Constant.swift in Sources */,
-				8B2CFF081E8407DB0068115A /* TFHpple.m in Sources */,
+				8B2F3A271E82ECD10032D096 /* PostListViewController.swift in Sources */,
+				8BB5F7541EA12C360046B2B8 /* JavaScriptController.swift in Sources */,
+				8B0EED431EA15C470034A732 /* Symfony.swift in Sources */,
+				8BC222F71EA1689E00991625 /* Strings.swift in Sources */,
 				8B1417311E81A96500F46FB3 /* AppDelegate.swift in Sources */,
-				8B1417431E81ABF000F46FB3 /* User.swift in Sources */,
-				8B2F3A291E82ECD10032D096 /* TableViewController.swift in Sources */,
-				8B2F3A241E82ECD10032D096 /* MenuItem.swift in Sources */,
-				8B2CFF0A1E8407DB0068115A /* XPathQuery.m in Sources */,
+				8B0EED411EA15C330034A732 /* PHP.swift in Sources */,
+				8B0EED3B1EA15BCD0034A732 /* Express.swift in Sources */,
+				8B0EED471EA15C640034A732 /* RubyOnRails.swift in Sources */,
+				8B0EED3F1EA15C270034A732 /* Bootstrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Baboon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -505,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = Baboon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

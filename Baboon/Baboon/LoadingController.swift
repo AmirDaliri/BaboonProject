@@ -7,12 +7,14 @@
 //
 
 import UIKit
-import Alamofire
-import UICircularProgressRing
+import MMDrawerController
 
-class LoadingController: UIViewController, UICircularProgressRingDelegate {
+
+class LoadingController: UIViewController {
   
-  @IBOutlet weak var loadingRing: UICircularProgressRingView!
+  var drawerController: MMDrawerController?
+
+  @IBOutlet weak var loadingIconView: UIImageView!
   
   let showFeedIdentifier = "showPostList"
   
@@ -20,40 +22,35 @@ class LoadingController: UIViewController, UICircularProgressRingDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     // I'm Here...
-    
-//    getTestResponse()
-    
-    //Loading Automat Compelet
-    loadingRing.delegate = self
-    loadingRing.animationStyle = kCAMediaTimingFunctionLinear
-    loadingRing.setProgress(value: 0, animationDuration: 0) { [unowned self] in
-      self.loadingRing.viewStyle = 2
-      self.loadingRing.setProgress(value: 100, animationDuration: 5) {}
-    }
+    drawerController = self.mm_drawerController
+
+    self.rotateLoading()
     self.setupLoader()
   }
   
+  
+  
   private func setupLoader() {
     perform(#selector(self.showFeed), with: nil, afterDelay: 5)
+    self.navigationController?.navigationBar.isHidden = true
   }
   
   func showFeed() {
     performSegue(withIdentifier: self.showFeedIdentifier, sender: self)
   }
   
-  
-  
-  private func getTestResponse() {
-    Alamofire.request(ApiRouter.Router.login()).validate().responseJSON() {
-      (response) in
-      print(response)
-    }
+  func rotateLoading() {
+    UIView.animate(withDuration: 0.9, delay: 0, options: .curveLinear, animations: {
+      self.loadingIconView!.transform = self.loadingIconView!.transform.rotated(by: CGFloat(Double.pi))
+    }, completion: { finished in
+      self.rotateLoading()
+    })
   }
   
-  func finishedUpdatingProgress(forRing ring: UICircularProgressRingView) {
-    if ring == loadingRing {
-      print("")
-    }
+  @IBAction func menuTapped(_ sender: Any) {
+    let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    appDelegate.drawerController?.toggle(.left, animated: true, completion: nil)
   }
+  
 }
 

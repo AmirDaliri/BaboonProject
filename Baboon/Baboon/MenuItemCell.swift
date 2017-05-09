@@ -11,15 +11,16 @@ import UIKit
 
 class MenuItemCell: UITableViewCell {
 
-    @IBOutlet weak var titleLabel: UILabel?
+  @IBOutlet weak var menuItemCell: UILabel!
 
-    var item: MenuItem? {
-        didSet {
-            _reloadData()
-        }
-    }
-
-    private func _reloadData() {
-        titleLabel?.text = item?.title
-    }
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    // Initialization code
+  }
+  
+  override func setSelected(_ selected: Bool, animated: Bool) {
+    super.setSelected(selected, animated: animated)
+    
+    // Configure the view for the selected state
+  }
 }
